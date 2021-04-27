@@ -20,9 +20,9 @@ https://archive.ics.uci.edu/ml/datasets/seeds
 
 
 # stucture
-Class NeuronLayer: This class form a sinlge layer of neurons. It is used by Class Network for bulding the neural network.
-Class Network : This class connects layers,trains model on the data using performs feed_forward and backward_propagation. 
-Main funtion: In the Main function, data is fetched from csv file and after formating used for trainig the model.
+Class NeuronLayer(NeuronLayer.py) : This class form a sinlge layer of neurons. It is used by Class Network for bulding the neural network.
+Class Network(Network.py) : This class connects layers,trains model on the data using performs feed_forward and backward_propagation. 
+Main funtion: In the Main function, data is fetched from csv file and after formating used for training the model.
 
 
 
